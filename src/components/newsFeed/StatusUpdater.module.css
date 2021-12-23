@@ -1,0 +1,73 @@
+.statusUpdater {
+	margin: 20px 0;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+/* Top Section */
+.statusUpdater-top {
+	display: flex;
+	margin: 0 20px 10px;
+	padding: 10px 0;
+	border-bottom: 2px solid #eff2f5;
+}
+
+.statusUpdater-top form {
+	background-color: #eff2f5;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-radius: 33px;
+	flex: 1;
+}
+
+.statusUpdater-top form input {
+	border: none;
+	background-color: transparent;
+	outline-width: 0;
+}
+
+/* Bottom Section */
+.statusUpdater-bottom {
+	display: flex;
+	padding: 10px 0;
+}
+.statusUpdater-bottom > ul {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.statusUpdater-bottom ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.statusUpdater-bottom ul li:hover {
+	background-color: #eff2f5;
+	border-radius: 10px;
+}
+
+.statusUpdater-bottom ul li:first-child {
+	color: red;
+}
+
+.statusUpdater-bottom ul li:nth-child(2) {
+	color: green;
+}
+.statusUpdater-bottom ul li:nth-child(3) {
+	color: orange;
+}
+
+.statusUpdater-bottom ul li h4 {
+	color: #ccc;
+	font-weight: 600;
+	margin-left: 10px;
+}
