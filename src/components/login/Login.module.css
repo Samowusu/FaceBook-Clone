@@ -1,0 +1,27 @@
+.login {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.login img {
+  width: 300px;
+  cursor: pointer;
+}
+
+.login button {
+  background-color: var(--facebook-blue);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.login button:hover {
+  background-color: #fff;
+  color: var(--facebook-blue);
+}

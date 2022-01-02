@@ -1,7 +1,18 @@
 .app {
-	background-color: #f1f2f5;
+  background-color: #f1f2f5;
 }
 
+.app-body-container {
+  display: flex;
+  justify-content: center;
+}
 .app-body {
-	display: flex;
+  display: flex;
+  max-width: 1440px;
+}
+
+@media (max-width: 1024px) {
+  .app-body {
+    justify-content: space-evenly;
+  }
 }

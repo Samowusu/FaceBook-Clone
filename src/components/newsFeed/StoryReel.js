@@ -11,11 +11,6 @@ function StoryReel() {
 				backgroundImage='https://toppng.com/uploads/preview/black-woman-closup-afro-pop-art-115628948192pjhxvesuo.png'
 			/>
 			<Story
-				title='Kong'
-				profileImage='https://www.looper.com/img/gallery/every-king-kong-movie-ranked-worst-to-best/intro-1617312244.jpg'
-				backgroundImage='https://images.theconversation.com/files/393182/original/file-20210401-19-kx3hwy.jpeg?ixlib=rb-1.1.0&rect=90%2C0%2C1221%2C609&q=45&auto=format&w=668&h=324&fit=crop'
-			/>
-			<Story
 				title='Chromo'
 				profileImage='https://lumiere-a.akamaihd.net/v1/images/h_blackpanther_mobile_19754_57fe2288.jpeg'
 				backgroundImage='https://cdn.vox-cdn.com/thumbor/7UxzMXrwy0npx4ltcY36Op0YMyU=/0x0:3840x2010/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22719421/MarvelsAvengers_E3SEP_BlackPanther.jpg'

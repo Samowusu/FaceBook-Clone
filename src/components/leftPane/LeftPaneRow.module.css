@@ -1,22 +1,22 @@
 .leftPane-row {
-	display: flex;
-	align-items: center;
-	padding: 10px;
-	cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .leftPane-row:hover {
-	background-color: lightgray;
-	border-radius: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
 }
 
 .leftPane-row > h4 {
-	margin-left: 20px;
-	font-weight: 600;
+  margin-left: 20px;
+  font-weight: 600;
 }
 
 .leftPane-row > .icon {
-	width: 30px;
-	height: 30px;
-	color: var(--facebook-blue);
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--facebook-blue);
 }

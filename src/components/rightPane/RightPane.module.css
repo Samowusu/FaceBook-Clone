@@ -1,0 +1,15 @@
+.rightPane {
+  width: 25%;
+  padding: 20px 0;
+  margin-left: 20px;
+}
+
+.rightPane iframe {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .rightPane {
+    display: none;
+  }
+}
